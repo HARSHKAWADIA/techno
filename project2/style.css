@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dream{
+    margin-right: 300px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(121, 121, 207);
+    height: 50px;
+    margin: 5px;
+}

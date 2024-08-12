@@ -1,0 +1,24 @@
+#name:hover{
+    border: 2px solid pink; 
+}
+/* 
+ul li:first-child{
+    background-color: ;
+} */
+ul li:nth-child(2n+1){
+    background-color: beige;
+}
+::selection{
+    background-color: rgb(252, 144, 11);
+    color: black;
+}
+/* 
+#para::first-line{
+    background-color: blueviolet;
+    font-size: 30px;
+} */
+#para::after{
+    content: "hiiiiiiii";
+    background-color: aqua;
+    padding: 50px;
+}
